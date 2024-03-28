@@ -3,7 +3,7 @@ import Favorites from "../../components/favorites-item/FavoritesItem";
 import "./FavoritesPage.css";
 import alertify from "alertifyjs";
 
-const HomePage = () => {
+const FavoritesPage = () => {
   const [favorites, setFavorites] = useState([]);
   const [favoriteQuery, setFavoriteQuery] = useState("");
 
@@ -73,4 +73,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default FavoritesPage;
